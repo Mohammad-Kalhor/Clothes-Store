@@ -2,9 +2,10 @@
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     padding: 1rem;
+    cursor: pointer;
     
     &-img {
-        width: 10rem;
+        width: 6rem;
         height: 100%;
     }
 }
