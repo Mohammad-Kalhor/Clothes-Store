@@ -19,8 +19,7 @@
     padding: 1rem;
     text-align: center;
     border-radius: .2rem;
-    visibility: hidden;
-    opacity: 0;
+    @include hidden;
     transition: opacity .3s;
 
     &::before{

@@ -21,3 +21,5 @@ $font-sizes: (
 @function size($size){
     @return map-get($map: $font-sizes, $key: $size)
 };
+
+$animList: 1 0, 2 4s, 3 8s, 4 12s, 5 16s;

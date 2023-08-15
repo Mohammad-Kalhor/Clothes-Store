@@ -17,14 +17,24 @@
     transition: all 0.3s;
     position: relative;
 
-    .fa-angle-down{
-        position: absolute;
-        top: 2px;
-        margin-left: 3px;
+    .fa-angle-down {
+      position: absolute;
+      top: 2px;
+      margin-left: 3px;
     }
 
     &:hover {
       color: lighten(color(primary), 40%);
     }
   }
+}
+
+@mixin hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@mixin visible {
+  visibility: visible;
+  opacity: 1;
 }
