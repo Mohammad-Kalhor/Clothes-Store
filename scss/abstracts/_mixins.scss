@@ -1,0 +1,30 @@
+@mixin navigation {
+  &-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  &-item {
+    list-style: none;
+  }
+
+  &-link {
+    color: color(primary);
+    text-decoration: none;
+    font-size: size(sm);
+    transition: all 0.3s;
+    position: relative;
+
+    .fa-angle-down{
+        position: absolute;
+        top: 2px;
+        margin-left: 3px;
+    }
+
+    &:hover {
+      color: lighten(color(primary), 40%);
+    }
+  }
+}
