@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -o css scss/main.scss -w",
     "sass:watch": "sass scss:css --no-source-map -w"
   },
   "keywords": [],
