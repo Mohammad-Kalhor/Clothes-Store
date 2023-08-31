@@ -3,3 +3,4 @@
 ### Moving Toward Becoming a MERN Stack Developer ❤
 ___
 Sass-based website for a clothes store
+you can see the demo [here](https://mohammad-kalhor.github.io/Clothes-Store/)
