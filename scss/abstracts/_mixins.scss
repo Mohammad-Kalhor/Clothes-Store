@@ -58,10 +58,30 @@
     font-size: size(xs);
     text-decoration: none;
     color: lighten(color(primary), 15%);
-    transition: color .2s;
+    transition: color 0.2s;
 
     &:hover {
       color: lighten(color(primary), 35%);
+    }
+  }
+}
+
+@mixin response($breakpoint) {
+  @if ($breakpoint == xl) {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if($breakpoint == lg) {
+    @media (max-width: 1000px) {
+      @content;
+    }
+  } @else if($breakpoint == md) {
+    @media (max-width: 770px) {
+      @content;
+    }
+  } @else if($breakpoint == sm) {
+    @media (max-width: 560px) {
+      @content;
     }
   }
 }
